@@ -1,0 +1,53 @@
+:root {
+  font-family: "Comic Sans MS", sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(44, 151, 112);
+}
+
+div.top-image img{
+  top: 0; left: 0; right: 0;
+  max-width: 100%;
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  border: 3px solid rgb(44, 151, 112);
+  object-fit: fill;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+
+.flex-container div{
+  flex: 1;
+  color:blue;
+  width: auto;
+  min-width: 200px;
+  min-height: 100%;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+.flex-container div:hover{
+  box-shadow: 20px 20px 20px black;
+  background-color: lightgray;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.content h1 {
+  padding-bottom: 125px;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
