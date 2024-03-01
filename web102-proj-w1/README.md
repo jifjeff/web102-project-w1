@@ -24,7 +24,7 @@ No **additional** features were implemented
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/4KBExOX' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/4KBExOX.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 LICECap for Windows
